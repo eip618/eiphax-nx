@@ -1,46 +1,8 @@
-<!doctype html><html lang="en">
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136684222-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-136684222-1');
-</script>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136684222-1"></script>
-	<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-136684222-1');
-	</script>
-    <title>The Problem Solver</title>
-    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="main.css" type="text/css"> <link rel="stylesheet" media="screen and (max-width: 1000px)" href="main-mini.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body class="animated">
-        <div class="header">
-    <div class="container">
-    <div class="logo">
-        <h1>eipHax</h1>    
-    </div>
-    <div class="nav">
-		<ul>
-            <li><a href="index">Home</a></li>
-            <li><a href="nutshell2">The Short Version</a></li>
-            <li><a href="nutshell">The Longer Version</a></li>
-		    <li><a href="privacy">Privacy Statement</a></li>
-			<!-- <li><a href="https://tinydb.eiphax.tech/">TinyDB</a></li>
-			<li><a href="issues">Troubleshooting</a></li> -->
-		</ul>
-    </div>
-    </div>
-</div>
-</div>
+<? php
+$title = "The Problem Solver";
+$desc = "Switch hacking on easy mode (if 46620 keeps their shit updated)";
+include "header.php";
+?>
         <div class="container">
         <div class="content">
             <center><h1>the problem solver</h1></center>
@@ -55,24 +17,4 @@
 		<br>Thanks to @FuryBaguette#8100 on Discord for the frii bootloader image.
 		<br><div class="small">In specific, this archive contains: <a href="https://github.com/Atmosphere-NX/Atmosphere/">Atmosphere</a>, <a href="https://github.com/CTCaer/Hekate/">Hekate (incl Nyx)</a>, <a href="https://github.com/suchmememanyskill/TegraExplorer/">TegraExplorer</a>, <a href="https://github.com/shchmue/Lockpick_RCM/">Lockpick_RCM</a>, FS patches, the <a href="https://github.com/vgmoose/hb-appstore/">Homebrew App Store</a>, <a href="https://github.com/FlagBrew/Checkpoint/">Checkpoint</a>, <a href="https://github.com/DarkMatterCore/nxdumptool/">nxdumptool</a>, <a href="https://github.com/ITotalJustice/atmosphere-updater/">atmosphere-updater</a>, <a href="https://github.com/mtheall/ftpd/">ftpd</a>, <a href="https://github.com/XorTroll/Goldleaf/">Goldleaf</a>, <a href="https://github.com/liuervehc/nxmtp/">nxmtp</a>, <a href="https://github.com/joel16/NX-Shell/">NX-Shell</a>, <a href="https://github.com/exelix11/SwitchThemeInjector/">NXThemesInstaller</a>, reboot_to_payload, Switch_90dns_Tester
 		</p>
-	<div class="footer">
-	<div class="container">
-	<div class="badge">
-	<img src="./img/spaghetti.svg" width="270px">
-	</div>
-	<div class="nav2">
-	<ul>
-		<li><a href="./index">Home</a>
-		<li><a href="./nutshell">What We Know</a></li>
-		<li><a href="./donate">Donations</a></li>
-		<li><a href="./contact.htm">Contact</a></li>
-		<li><a href="https://eiphax.tech/privacy" target="_blank">Privacy</a>
-		<li><a href="https://3ds.eiphax.tech">3DS</a></li>
-	</ul>
-	</div>
-	</div>
-	</div>
-    </div>
-    </div>
-    </body>
-</html>
+<? php include "footer.php"; ?>

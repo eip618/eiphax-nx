@@ -1,36 +1,15 @@
-<!doctype html><html lang="en">
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136684222-1"></script>
+<? php
+$title = "Nutshell (shorter version)";
+$desc = "An EVEN SHORTER summary of Switch hacks and tools";
+include "header.php";
+?>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-136684222-1');
+document.querySelectorAll('.btn-toggle-visibility').forEach(function(currentToggleVisibilityButton) {
+  currentToggleVisibilityButton.addEventListener('click', function () {
+    document.querySelector(currentToggleVisibilityButton.getAttribute('data-target')).classList.toggle('hidden');
+  });
+ });
 </script>
-    <title>The Short Version</title>
-    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="main.css" type="text/css"> <link rel="stylesheet" media="screen and (max-width: 1000px)" href="main-mini.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body class="animated">
-        <div class="header">
-    <div class="container">
-    <div class="logo">
-        <h1>eipHax</h1>    
-    </div>
-    <div class="nav">
-        <ul>
-            <li><a href="index">Home</a></li>
-            <li><a href="nutshell2">The Short Version</a></li>
-            <li><a href="nutshell">The Longer Version</a></li>
-		    <li><a href="privacy">Privacy Statement</a></li>
-			<!-- <li><a href="https://tinydb.eiphax.tech/">TinyDB</a></li>
-			<li><a href="issues">Troubleshooting</a></li> -->
-		</ul>
-    </div>
-</div>
-</div>
         <div class="container">
         <div class="content">
             <center><h1>Information</h1></center>
@@ -68,31 +47,4 @@
 		<p>However, at this time it is believed that using common functions such as save managing, some save editing, theming and emulation are "safe", to a point.
 		<p>Your results may vary.
 		</div>
-	<div class="footer">
-	<div class="container">
-	<div class="badge">
-	<img src="./img/spaghetti.svg" width="270px">
-	</div>
-	<div class="nav2">
-	<ul>
-		<li><a href="./index">Home</a>
-		<li><a href="./nutshell">What We Know</a></li>
-		<li><a href="./donate">Donations</a></li>
-		<li><a href="./contact.htm">Contact</a></li>
-		<li><a href="https://eiphax.tech/privacy" target="_blank">Privacy</a>
-		<li><a href="https://3ds.eiphax.tech">3DS</a></li>
-	</ul>
-	</div>
-	</div>
-	</div>
-    </div>
-    </div>
-	<script>
-document.querySelectorAll('.btn-toggle-visibility').forEach(function(currentToggleVisibilityButton) {
-  currentToggleVisibilityButton.addEventListener('click', function () {
-    document.querySelector(currentToggleVisibilityButton.getAttribute('data-target')).classList.toggle('hidden');
-  });
- });
-</script>
-    </body>
-</html>
+<? php include "footer.php"; ?>

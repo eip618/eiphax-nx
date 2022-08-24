@@ -1,40 +1,11 @@
-<!doctype html><html lang="en">
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136684222-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-136684222-1');
-</script>
-    <title>Banned!</title>
-    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="main.css" type="text/css"> <link rel="stylesheet" media="screen and (max-width: 1000px)" href="main-mini.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Info on Switch Bans.">
-	<meta name="author" content="Gunther">
-    </head>
-    <body class="animated">
-        <div class="header">
-    <div class="container">
-    <div class="logo">
-        <h1>eipHax</h1>    
-    </div>
-    <div class="nav">
-		<ul>
-            <li><a href="index">Home</a></li>
-            <li><a href="nutshell2">The Short Version</a></li>
-            <li><a href="nutshell">The Longer Version</a></li>
-		    <li><a href="privacy">Privacy Statement</a></li>
-			<!-- <li><a href="https://tinydb.eiphax.tech/">TinyDB</a></li>
-			<li><a href="issues">Troubleshooting</a></li> -->
-		</ul>
-    </div>
-</div>
-</div>
+<? php
+$title = "Switch Bans";
+$desc = "Information about bans on the Switch and how to avoid them.";
+include "header.php";
+?>
+			<!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <div class="container">
         <div class="content">
             <center><h1>Switch Ban Essentials: Q&A</h1></center>
@@ -250,30 +221,7 @@
 
   </div>
   <!-- /#wrapper -->
-	<div class="footer">
-	<div class="container">
-	<div class="badge">
-	<img src="./img/spaghetti.svg" width="270px">
-	</div>
-	<div class="nav2">
-	<ul>
-		<li><a href="./index">Home</a>
-		<li><a href="./nutshell">What We Know</a></li>
-		<li><a href="./donate">Donations</a></li>
-		<li><a href="./contact">Contact</a></li>
-		<li><a href="https://eiphax.tech/privacy" target="_blank">Privacy</a>
-		<li><a href="https://3ds.eiphax.tech">3DS</a></li>
-	</ul>
-	</div>
-	</div>
-	</div>
-		</div>
-		</div>
-			<!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-				</div>
-				</div>
+<? php include "footer.php"; ?>
   <!-- BLANK CARD FOR SUBMITTING ADDITIONAL ELEMENTS
 		Do not forget to replace the relevant elements based on the prior element and ordering.
 		These are e1 and collapseOne along with the title card number.
@@ -292,6 +240,3 @@
 				CONTENT
 				
 				</div> -->
-		</body>
-		</body>
-</html>
