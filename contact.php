@@ -1,4 +1,4 @@
-<? php
+<?php
 $title = "Contact Me";
 $desc = "contact me (or don't?)";
 include "header.php";
@@ -77,4 +77,6 @@ include "header.php";
 	</table>
 	</form>
 	</center>
-	<? php include "footer.php"; ?>
+<?php
+include "footer.php";
+?>

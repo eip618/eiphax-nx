@@ -1,4 +1,4 @@
-<? php
+<?php
 $title = "yt bad lol";
 $desc = "Video guides are bad, mmkay?";
 include "header.php";
@@ -12,4 +12,6 @@ include "header.php";
 		<br>if that advice does not help you, join the <a href="https://discord.gg/dQgV6ZG" target="_blank">Nintendo Homebrew</a> discord and ask us for help there.
 		<br>if you're a youtube video guide creator and you are reading this page: you know why this page exists. i gave you a chance to change things and you did not.
 		<br>this is the future you chose.
-<? php include "footer.php"; ?>
+<?php
+include "footer.php";
+?>

@@ -1,4 +1,4 @@
-<? php
+<?php
 $title = "Donations";
 $desc = "give me money lol";
 include "header.php";
@@ -14,4 +14,6 @@ include "header.php";
 		<p>You can donate <a href="https://3ds.hacks.guide/donations">at this page</a> and just put "for eip" or something in the description.
 
 		
-	<? php include "footer.php"; ?>
+<?php
+include "footer.php";
+?>

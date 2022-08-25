@@ -1,4 +1,4 @@
-<? php
+<?php
 $title = "The NX Homebrew Index";
 $desc = "a vaguely up to date introduction to the switch and cfw";
 include "header.php";
@@ -20,4 +20,6 @@ include "header.php";
         <br>Here's a quick page on <a href="nutshell" target="_blank">the state of Switch homebrew as it stands</a>.
         <br>This entire website should be considered a permanent WIP (lol who needs content anyway), but LOOK MA I HAVE CSS NOW.
     <p><div class="blue"><a href="contact.php">Contact me</a> if you have problems, suggestions or other feedback.</div>
-<? php include "footer.php"; ?>
+<?php
+include "footer.php";
+?>

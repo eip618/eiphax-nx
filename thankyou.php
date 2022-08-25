@@ -1,4 +1,4 @@
-<? php
+<?php
 $title = "Thanks";
 $desc = "contact form thanking page";
 include "header.php";
@@ -8,4 +8,6 @@ include "header.php";
             <center><h1>thanks!</h1></center>
             <hr>
         <p>thanks for your feedback. I'll get back to you eventually, if you requested me to, and left valid contact details.
-	<? php include "footer.php"; ?>
+<?php
+include "footer.php";
+?>

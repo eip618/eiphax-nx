@@ -1,4 +1,4 @@
-<? php
+<?php
 $title = "The NX Nutshell";
 $desc = "A short summary of current tools and methods for Switch CFW";
 include "header.php";
@@ -114,7 +114,9 @@ include "header.php";
 
   </div>
   <!-- /#wrapper -->
-<? php include "footer.php"; ?>
+<?php
+include "footer.php";
+?>
   <!-- BLANK CARD FOR SUBMITTING ADDITIONAL ELEMENTS
 		Do not forget to replace the relevant elements based on the prior element and ordering.
 		These are e1 and collapseOne along with the title card number.

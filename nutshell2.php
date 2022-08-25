@@ -1,4 +1,4 @@
-<? php
+<?php
 $title = "Nutshell (shorter version)";
 $desc = "An EVEN SHORTER summary of Switch hacks and tools";
 include "header.php";
@@ -47,4 +47,6 @@ document.querySelectorAll('.btn-toggle-visibility').forEach(function(currentTogg
 		<p>However, at this time it is believed that using common functions such as save managing, some save editing, theming and emulation are "safe", to a point.
 		<p>Your results may vary.
 		</div>
-<? php include "footer.php"; ?>
+<?php
+include "footer.php";
+?>

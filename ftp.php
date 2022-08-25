@@ -1,4 +1,4 @@
-<? php
+<?php
 $title = "FTP Guide";
 $desc = "How to use FTP on your Switch without getting a virus";
 include "header.php";
@@ -41,4 +41,6 @@ include "header.php";
 <p>Your Switch and PC should be on the same network. FTPD sometimes refuses to work if your PC is on ethernet, while your Switch is connected wirelessly.</p>
 <p>If you are having trouble staying connected, make sure your internet connection is stable. If for some reason WinSCP doesn't work for you, you can try another FTP client such as FileZilla.</p>
 		
-	<? php include "footer.php"; ?>
+<?php
+include "footer.php";
+?>

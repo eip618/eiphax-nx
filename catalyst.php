@@ -1,4 +1,4 @@
-<? php
+<?php
 $title = "The Problem Solver";
 $desc = "Switch hacking on easy mode (if 46620 keeps their shit updated)";
 include "header.php";
@@ -17,4 +17,6 @@ include "header.php";
 		<br>Thanks to @FuryBaguette#8100 on Discord for the frii bootloader image.
 		<br><div class="small">In specific, this archive contains: <a href="https://github.com/Atmosphere-NX/Atmosphere/">Atmosphere</a>, <a href="https://github.com/CTCaer/Hekate/">Hekate (incl Nyx)</a>, <a href="https://github.com/suchmememanyskill/TegraExplorer/">TegraExplorer</a>, <a href="https://github.com/shchmue/Lockpick_RCM/">Lockpick_RCM</a>, FS patches, the <a href="https://github.com/vgmoose/hb-appstore/">Homebrew App Store</a>, <a href="https://github.com/FlagBrew/Checkpoint/">Checkpoint</a>, <a href="https://github.com/DarkMatterCore/nxdumptool/">nxdumptool</a>, <a href="https://github.com/ITotalJustice/atmosphere-updater/">atmosphere-updater</a>, <a href="https://github.com/mtheall/ftpd/">ftpd</a>, <a href="https://github.com/XorTroll/Goldleaf/">Goldleaf</a>, <a href="https://github.com/liuervehc/nxmtp/">nxmtp</a>, <a href="https://github.com/joel16/NX-Shell/">NX-Shell</a>, <a href="https://github.com/exelix11/SwitchThemeInjector/">NXThemesInstaller</a>, reboot_to_payload, Switch_90dns_Tester
 		</p>
-<? php include "footer.php"; ?>
+<?php
+include "footer.php";
+?>

@@ -1,4 +1,4 @@
-<? php
+<?php
 $title = "You've met with a terrible fate, haven't you?";
 $desc = "Look, it's an error page.";
 include "header.php";
@@ -8,4 +8,6 @@ include "header.php";
             <center><h1>shrug.jpg</h1></center>
             <hr>
         <p>Something unintended prevented you from being able to access this resource. Try again later, or <a href="index">return home.</a>
-<? php include "footer.php"; ?>
+<?php
+include "footer.php";
+?>
