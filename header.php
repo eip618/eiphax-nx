@@ -9,9 +9,14 @@
 
   gtag('config', 'UA-136684222-1');
 </script>
-    <title>You've met with a terrible fate, haven't you?</title>
+    <title><? php echo $title; ?></title>
     <link rel="stylesheet" media="screen and (min-width: 1000px)" href="main.css" type="text/css"> <link rel="stylesheet" media="screen and (max-width: 1000px)" href="main-mini.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta charset="utf-8">
+	<meta name="title" content="<?php echo $title; ?>">
+	<meta name="description" content="<?php echo $desc; ?>">
+	<meta name="author" content="eip">
     </head>
     <body class="animated">
         <div class="header">
@@ -32,29 +37,3 @@
     </div>
 </div>
 </div>
-        <div class="container">
-        <div class="content">
-            <center><h1>405</h1></center>
-            <hr>
-        <p>The method your browser used to access this resource was understood, but is not allowed. Please try a different browser, or <a href="index">return home.</a>
-<div class="footer">
-	<div class="container">
-	<div class="badge">
-	<img src="./img/spaghetti.svg" width="270px">
-	</div>
-	<div class="nav2">
-	<ul>
-		<li><a href="./index">Home</a>
-		<li><a href="./nutshell">What We Know</a></li>
-		<li><a href="./donate">Donations</a></li>
-		<li><a href="./contact.htm">Contact</a></li>
-		<li><a href="https://eiphax.tech/privacy" target="_blank">Privacy</a>
-		<li><a href="https://3ds.eiphax.tech">3DS</a></li>
-	</ul>
-	</div>
-	</div>
-	</div>
-		</div>
-		</div>
-		</body>
-</html>
