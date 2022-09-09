@@ -26,8 +26,8 @@ include_once 'submit.php';
         <input type="email" name="email" placeholder="Enter your email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" required="">
     </div>
     <div class="form-input">
-        <label for="subject">Subject</label>
-        <input type="text" name="subject" placeholder="Enter subject" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>" required="">
+        <label for="usersubject">Subject</label>
+        <input type="text" name="usersubject" placeholder="Enter subject" value="<?php echo !empty($postData['usersubject'])?$postData['usersubject']:''; ?>" required="">
     </div>
     <div class="form-input">
         <label for="message">Message</label>
