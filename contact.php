@@ -16,30 +16,33 @@ include_once 'submit.php';
 <!-- Google recaptcha API library -->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <!-- Contact form fields -->
+<table>
 <form action="" method="post" class="cnt-form">
-    <div class="form-input">
-        <label for="name">Name</label>
-        <input type="text" name="name" placeholder="Enter your name" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" required="">
+    <tr>
+	<td><div class="form-input">
+        <label for="name">Name</label></td>
+        <td><input type="text" name="name" placeholder="Enter your name" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" required=""></td>
     </div>
-    <div class="form-input">
-        <label for="email">Email</label>
-        <input type="email" name="email" placeholder="Enter your email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" required="">
+	</tr>
+	<tr>
+    <td><div class="form-input">
+        <label for="email">Email</label></td>
+        <td><input type="email" name="email" placeholder="Enter your email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" required=""></td>
     </div>
-    <div class="form-input">
-        <label for="usersubject">Subject</label>
-        <input type="text" name="usersubject" placeholder="Enter subject" value="<?php echo !empty($postData['usersubject'])?$postData['usersubject']:''; ?>" required="">
+	</tr>
+	<tr>
+    <td><div class="form-input">
+        <label for="usersubject">Subject</label></td>
+        <td><input type="text" name="usersubject" placeholder="Enter subject" value="<?php echo !empty($postData['usersubject'])?$postData['usersubject']:''; ?>" required=""></td>
     </div>
-    <div class="form-input">
-        <label for="message">Message</label>
-        <textarea name="message" placeholder="Type your message here" required=""><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
+	</tr>
+	<tr>
+    <td><div class="form-input">
+        <label for="message">Message</label></td>
+        <td><textarea name="message" placeholder="Type your message here" required=""><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea></td>
     </div>
-	<p />
-    <div class="form-input">
-        <!-- Google reCAPTCHA box -->
-        <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
-    </div>
-    <input type="submit" name="submit" class="btn" value="Submit">
-</form>
+	</tr>
+</table>
 <p />
 <!-- Status message -->
 <?php if(!empty($statusMsg)){ ?>
