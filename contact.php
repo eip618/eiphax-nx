@@ -15,12 +15,6 @@ include_once 'submit.php';
 <!-- form "borrowed" from codexworld.com -->
 <!-- Google recaptcha API library -->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-<!-- Status message -->
-<?php if(!empty($statusMsg)){ ?>
-    <div class="status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></div>
-<?php } ?>
-
 <!-- Contact form fields -->
 <form action="" method="post" class="cnt-form">
     <div class="form-input">
@@ -39,12 +33,18 @@ include_once 'submit.php';
         <label for="message">Message</label>
         <textarea name="message" placeholder="Type your message here" required=""><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
     </div>
+	<p />
     <div class="form-input">
         <!-- Google reCAPTCHA box -->
         <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
     </div>
     <input type="submit" name="submit" class="btn" value="Submit">
 </form>
+<p />
+<!-- Status message -->
+<?php if(!empty($statusMsg)){ ?>
+    <div class="status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></div>
+<?php } ?>
 </center>
 <?php
 include "footer.php";
