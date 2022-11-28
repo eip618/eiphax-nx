@@ -16,8 +16,8 @@ include_once 'submit.php';
 <!-- Google recaptcha API library -->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <!-- Contact form fields -->
-<table>
 <form action="" method="post" class="cnt-form">
+<table>
     <tr>
 	<td><div class="form-input">
         <label for="name">Name</label></td>
@@ -43,6 +43,13 @@ include_once 'submit.php';
     </div>
 	</tr>
 </table>
+<p />
+    <div class="form-input">
+        <!-- Google reCAPTCHA box -->
+        <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
+    </div>
+    <input type="submit" name="submit" class="btn" value="Submit">
+</form>
 <p />
 <!-- Status message -->
 <?php if(!empty($statusMsg)){ ?>
