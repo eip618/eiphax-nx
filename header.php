@@ -11,7 +11,7 @@
 </script>
     <title><?php echo $title;
 ?></title>
-    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="main.css" type="text/css"> <link rel="stylesheet" media="screen and (max-width: 1000px)" href="main-mini.css">
+    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="/main.css" type="text/css"> <link rel="stylesheet" media="screen and (max-width: 1000px)" href="/main-mini.css" type="text/css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta charset="utf-8">
