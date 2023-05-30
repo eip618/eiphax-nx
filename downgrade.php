@@ -16,6 +16,7 @@ include "header.php";
 	<li>automatic software updates disabled in <div class="code">System Settings > System</div></li>
 </ul>
 <p /><h3>how to do the thing</h3>
+<div class="info">please note that this process will reset your title's version <i>entirely</i>, as in: if you installed update 1.2.0 and you want to go back to 1.1.0, this process will take you all the way back to 1.0.0</div>
 <ol>
 	<li>if you do not already have goldleaf and jk's save manager in your <div class="code">switch</div> folder on your sd card so you can use them via the homebrew menu, put them there now</li>
 	<li>use title takeover to launch the homebrew menu via an installed title. on systems with the default atmosphere config, you can do this by holding the <div class="code">right shoulder</div> button while launching an installed title, and continuing to hold it until you see the homebrew menu</li>
