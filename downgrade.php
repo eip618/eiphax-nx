@@ -29,7 +29,8 @@ include "header.php";
 	<li>now navigate to the listing <b>for the game</b>, which might be in the same place you are now, or might be somewhere else (remember step 6)</li>
 	<li>select the game, then select <div class="code">Reset launch version > Yes</div></li>
 </ol>
-<p>that's it, the game should allow you to launch now without the update. the game will probably prompt you for an update if/when it is connected to the internet again, but you should be given the option to download it, or to start the game without it.</p>
+<div class="blue">that's it, the game should allow you to launch now without the update. the game will probably prompt you for an update if/when it is connected to the internet again, but you should be given the option to download it, or to start the game without it.</div>
+<div class="info">be warned that <b>there is a chance saves from a newer update will not work on an older version</b>, which is why this guide has you make backups during the process. if anything goes wrong, reinstall the update and restore the save backup you made.</div>
 <?php
 include "footer.php";
 ?>
