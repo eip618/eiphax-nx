@@ -22,7 +22,7 @@ include "header.php";
 	<li>launch jk's save manager (jksv) from the homebrew menu and make a backup of any saves you care about (usage instructions can be found at <a href="https://github.com/J-D-K/JKSV">jksv's github</a> if you need them)</li>
 	<li>press the <div class="code">+</div> button to go back to the homebrew menu and launch goldleaf</li>
 	<li>navigate to <div class="code">Manage console contents</div></li>
-	<li>you will need to work out whether your title and update are stored on your sd card <div class="code">(SD card)</div>, or in the console's nand storage <div class="code">(NAND USER)</div>, and select the relevant option <b>for the update<b> in this menu. if you are unsure, you can check <div class="code">system settings > data management > software</div></li>
+	<li>you will need to work out whether your title and update are stored on your sd card <div class="code">(SD card)</div>, or in the console's nand storage <div class="code">(NAND USER)</div>, and select the relevant option <b>for the update</b> in this menu. if you are unsure, you can check <div class="code">system settings > data management > software</div></li>
 	<li>in the relevant menu listing, find and select your title, then select <div class="code">Update</div></li>
 	<li>select <div class="code">Export > Yes</div> and wait for this process to complete. this is a backup of the update you are intending to remove in case you need to install it again. if you do, it will be in <div class="code">SD:/switch/goldleaf/export/</div></li>
 	<li>select the <div class="code">Update</div> entry again, and this time select <div class="code">Remove > Yes > Yes</div></li>
