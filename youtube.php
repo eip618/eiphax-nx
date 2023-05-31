@@ -3,6 +3,9 @@ $title = "yt bad lol";
 $desc = "Video guides are bad, mmkay?";
 include "header.php";
 ?>
+<?php
+include "nav.php";
+?>
         <div class="container">
         <div class="content">
             <center><marquee><font size="32">video guides are bad</font></marquee></center>

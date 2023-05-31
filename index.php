@@ -3,6 +3,9 @@ $title = "The NX Homebrew Index";
 $desc = "a vaguely up to date introduction to the switch and cfw";
 include "header.php";
 ?>
+<?php
+include "nav.php";
+?>
         <div class="container">
         <div class="content">
             <center><h1>eip's homebrew index: we /switch/ now son</h1>

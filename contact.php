@@ -3,6 +3,9 @@ $title = "Contact Me";
 $desc = "contact me (or don't?)";
 include "header.php";
 ?>
+<?php
+include "nav.php";
+?>
 <?php 
 // Include form submission script 
 include_once 'submit.php'; 

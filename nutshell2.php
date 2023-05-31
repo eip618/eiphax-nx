@@ -3,6 +3,9 @@ $title = "Nutshell (shorter version)";
 $desc = "An EVEN SHORTER summary of Switch hacks and tools";
 include "header.php";
 ?>
+<?php
+include "nav.php";
+?>
 <script>
 document.querySelectorAll('.btn-toggle-visibility').forEach(function(currentToggleVisibilityButton) {
   currentToggleVisibilityButton.addEventListener('click', function () {

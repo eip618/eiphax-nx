@@ -3,6 +3,9 @@ $title = "You've met with a terrible fate, haven't you?";
 $desc = "Look, it's an error page.";
 include "header.php";
 ?>
+<?php
+include "nav.php";
+?>
         <div class="container">
         <div class="content">
             <center><h1>405</h1></center>

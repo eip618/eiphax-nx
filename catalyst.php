@@ -3,6 +3,9 @@ $title = "The Problem Solver";
 $desc = "Switch hacking on easy mode (if 46620 keeps their shit updated)";
 include "header.php";
 ?>
+<?php
+include "nav.php";
+?>
         <div class="container">
         <div class="content">
             <center><h1>the problem solver</h1></center>

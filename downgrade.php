@@ -3,6 +3,9 @@ $title = "title downgrade guide";
 $desc = "how to downgrade a title version (hello TOTK players)";
 include "header.php";
 ?>
+<?php
+include "nav.php";
+?>
         <div class="container">
         <div class="content">
 <center><h1>downgrading your software version on a hacked switch</h1></center>

@@ -3,6 +3,9 @@ $title = "FTP Guide";
 $desc = "How to use FTP on your Switch without getting a virus";
 include "header.php";
 ?>
+<?php
+include "nav.php";
+?>
         <div class="container">
         <div class="content">
             <center><h1></h1></center>

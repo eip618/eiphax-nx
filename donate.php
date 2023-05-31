@@ -3,6 +3,9 @@ $title = "Donations";
 $desc = "give me money lol";
 include "header.php";
 ?>
+<?php
+include "nav.php";
+?>
         <div class="container">
         <div class="content">
             <center><h1>Donations</h1></center>

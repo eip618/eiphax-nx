@@ -6,6 +6,9 @@ include "header.php";
 			<!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<?php
+include "nav.php";
+?>
         <div class="container">
         <div class="content">
             <center><h1>The State of Things</h1></center>
