@@ -34,6 +34,6 @@ echo $desc;
     <body class="animated">
         <div class="header">
     <div class="container-flex">
-    <div class="logo flex-left">
+    <div class="logo">
         <h1>eipHax</h1>    
     </div>
