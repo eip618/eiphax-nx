@@ -9,9 +9,13 @@
 
   gtag('config', 'UA-136684222-1');
 </script>
-    <title><?php echo $title;
-?></title>
+    <title>
+<?php
+echo $title;
+?>
+</title>
     <link rel="stylesheet" media="screen and (min-width: 1000px)" href="/main.css" type="text/css"> <link rel="stylesheet" media="screen and (max-width: 1000px)" href="/main-mini.css" type="text/css">
+	<link rel="stylesheet" href="jmenu.min.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta charset="utf-8">
@@ -29,20 +33,7 @@ echo $desc;
     </head>
     <body class="animated">
         <div class="header">
-    <div class="container">
-    <div class="logo">
+    <div class="container-flex">
+    <div class="logo flex-left">
         <h1>eipHax</h1>    
     </div>
-    <div class="nav">
-		<ul>
-            <li><a href="index">Home</a></li>
-            <li><a href="nutshell2">The Short Version</a></li>
-            <li><a href="nutshell">The Longer Version</a></li>
-		    <li><a href="privacy">Privacy Statement</a></li>
-			<!-- <li><a href="https://tinydb.eiphax.tech/">TinyDB</a></li>
-			<li><a href="issues">Troubleshooting</a></li> -->
-		</ul>
-    </div>
-    </div>
-</div>
-</div>
