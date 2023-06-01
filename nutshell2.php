@@ -7,11 +7,13 @@ include "header.php";
 include "nav.php";
 ?>
 <script>
+document.addEventListener('DOMContentLoaded', function() {
 document.querySelectorAll('.btn-toggle-visibility').forEach(function(currentToggleVisibilityButton) {
   currentToggleVisibilityButton.addEventListener('click', function () {
     document.querySelector(currentToggleVisibilityButton.getAttribute('data-target')).classList.toggle('hidden');
   });
  });
+});
 </script>
         <div class="container">
         <div class="content">
