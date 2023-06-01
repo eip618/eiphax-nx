@@ -8,7 +8,7 @@
       <ul>
         <li><a href="https://nx.eiphax.tech/nutshell2">short version</a></li>
         <li><a href="https://nx.eiphax.tech/nutshell">slightly longer version</a></li>
-        <li><a href="https://nx.hacks.guide/ban">switch ban information</a></li>
+        <li><a href="https://nx.eiphax.tech/ban">switch ban information</a></li>
 		<li><a href="https://nx.eiphax.tech/contact">contact me</a></li>
       </ul>
     </li>
