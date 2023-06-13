@@ -11,7 +11,7 @@ include "nav.php";
             <center><h1></h1></center>
 <center><h1>A guide to using FTP for the Switch</h1></center>
 </center><hr />
-<p>This guide will teach you how to use FTP or file transfer protocol. The benefits of FTP being that you can move files wirelessly between your pc and Switch. This will not work with Airplane mode, but will work with 90DNS. Guide written by Krieg#1473 on Discord.</p>
+<p>This guide will teach you how to use FTP or file transfer protocol. The benefits of FTP being that you can move files wirelessly between your pc and Switch. This will not work with Airplane mode, but will work with 90DNS. Guide written by kriegxd on Discord.</p>
 <p>Requirements: A FTP server on your Switch, and an FTP client on your computer.</p>
 <p>For PC I use and recommend <a href="https://winscp.net/eng/downloads.php">WinSCP.</a> If you are on OS X or GNU/Linux I recommend <a href="https://filezilla-project.org/download.php?type=client">Filezilla.</a> For Switch we are going to use <a href="https://github.com/mtheall/ftpd/releases/latest">FTPD</a>. There are two versions of FTPD, classic and latest. Classic uses a console while the new release has a GUI. For this guide, we will use classic. Place ftpd-classic.nro in the Switch folder on SD root.
 <h3>Setting up FTPD.</h3>
