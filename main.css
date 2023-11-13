@@ -691,6 +691,70 @@ a{
     }
 }
 
+.dead {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.dead:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.dead > div {
+	width: 80%;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: #2e3440;
+  animation: glowing 1300ms 6;
+}
+@keyframes glowing {
+        0% {
+          background-color: #inherit;
+          box-shadow: 0 0 5px #inherit;
+        }
+        50% {
+          background-color: #b4ceff;
+          box-shadow: 0 0 20px #b4ceff;
+        }
+        100% {
+          background-color: #inherit;
+          box-shadow: 0 0 5px #inherit;
+        }
+      }
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
 /*!
  * Adapted with permission from Zeta.
  * Parts of this stylesheet are used under license from Bootstrap, complying with the MIT license:
