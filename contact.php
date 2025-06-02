@@ -15,6 +15,11 @@ include_once 'submit.php';
             <center><h1>contact me</h1>
             <hr>
         <p>please note that this contact form is intended primarily for issues with the website. contacting me for console hacking help is likely to have a faster response if you instead <a href="https://discord.gg/dQgV6ZG">contact nintendo homebrew</a>
+<?php if(!empty($statusMsg)){ ?>
+    <div class="status-msg <?php echo $status; ?>" style="text-align: center; margin: 1em 0;">
+        <?php echo $statusMsg; ?>
+    </div>
+<?php } ?>
 <!-- form "borrowed" from codexworld.com -->
 <!-- Google recaptcha API library -->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
